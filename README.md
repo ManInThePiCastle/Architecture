@@ -10,6 +10,18 @@ Services should all be implemented as an API and be documented in their respecti
 
 The service definitions are as follows:
 
+### Detection Service
+
+Takes the opposing player's move and creates a chess notation for the chess service to consume.  This can be done automagically or manually throught a UI.  This is the least important service.
+
+#### Input
+
+* The opposing player makes a move
+
+#### Output
+
+* Chess notation of the move
+
 ### Path Service
 
 A service that creates a cartesian path for the robot to follow.  Basically a 2D to 3D move conversion service
